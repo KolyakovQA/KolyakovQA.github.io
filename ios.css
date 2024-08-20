@@ -9,7 +9,7 @@ body {
 }
 body {
     background-image: url('fon2.jpg'); /* Путь к изображению */
-    background-size: cover; /* Масштабирование изображения по всей площади экрана */
+    background-size: auto auto; /* Масштабирование изображения по всей площади экрана */
     background-position: center; /* Центрирование изображения */
     background-repeat: no-repeat; /* Запрет на повторение изображения */
     margin: 0;
@@ -120,43 +120,6 @@ body {
   text-decoration: none;
   color: #0c79ff;
 }
-
-
-
-
-
-
-.links__link1,
-.links__title {
-  font-size: 14px;
-  font-size: 1.4;
-}
-
-.links__link1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px 0px 10px;
-  gap: 40px;
-  border-bottom: 1px solid #dedede;
-  width: 400px;
-}
-
-.links__link1:last-child {
-  border-bottom: none;
-}
-
-.linsk__link1,
-.links__link1:visited {
-  text-decoration: none;
-  color: #0c79ff;
-}
-
-
-
-
-
-
 
 .links__title {
   margin: 0;
