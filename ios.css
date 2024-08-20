@@ -11,7 +11,7 @@ body {
     background-image: url('fon2.jpg'); /* Путь к изображению */
     background-size: auto auto; /* Масштабирование изображения по всей площади экрана */
     background-position: center; /* Центрирование изображения */
-    background-repeat: no-repeat; /* Запрет на повторение изображения */
+    background-repeat: repeat; /* Запрет на повторение изображения */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
